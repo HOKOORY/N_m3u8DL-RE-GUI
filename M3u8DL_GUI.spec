@@ -1,11 +1,14 @@
 # -*- mode: python ; coding: utf-8 -*-
 
-
 a = Analysis(
-    ['m3u8dl_gui.py'],
+    ['main.py'],
     pathex=[],
     binaries=[('N_m3u8DL-RE.exe', '.')],
-    datas=[],
+    datas=[
+        ('controllers/', 'controllers'),
+        ('models/', 'models'),
+        ('views/', 'views'),
+    ],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

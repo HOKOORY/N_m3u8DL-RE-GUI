@@ -54,6 +54,9 @@ class MainController:
         
         # 自动切换到任务管理选项卡
         self.view.switch_to_task_manager_tab()
+        
+        # 自动保存当前配置
+        self.save_config()
     
     def start_task(self, task_id):
         """开始指定任务"""

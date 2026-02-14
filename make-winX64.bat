@@ -1,0 +1,1 @@
+PyInstaller M3u8DL_GUI.spec
