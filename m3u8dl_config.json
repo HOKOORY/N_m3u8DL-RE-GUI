@@ -1,0 +1,14 @@
+{
+    "save_dir": "C:/Users/Administrator/Desktop/test",
+    "tmp_dir": "C:/Users/Administrator/Desktop/test",
+    "thread_count": "16",
+    "download_retry_count": "10",
+    "http_request_timeout": "10",
+    "log_level": "INFO",
+    "sub_format": "SRT",
+    "custom_proxy": "",
+    "max_speed": "",
+    "ffmpeg_binary_path": "",
+    "decryption_binary_path": "",
+    "decryption_engine": "MP4DECRYPT"
+}
